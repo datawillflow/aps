@@ -1,0 +1,15 @@
+{
+  "fonte": "SINASC 2024 - Mães residentes no Estado de São Paulo",
+  "universo_N": 470775,
+  "baixo_peso_A": 47345,
+  "probabilidade_pA": 0.10056821199086613,
+  "binomial_100": {
+    "n": 100,
+    "p": 0.10056821199086613,
+    "P_exatamente_10": 0.1318417756272756,
+    "P_ate_5": 0.0555768483412678,
+    "P_pelo_menos_15": 0.07539468466876084,
+    "Media_Esperada": 10.056821199086613,
+    "Desvio_Padrao": 3.0075612500467273
+  }
+}

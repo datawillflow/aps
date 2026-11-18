@@ -1,0 +1,26 @@
+== 1. FLUXO DE FILTRAGEM DOS REGISTROS ==
+Brasil: 2389325 -> SP Residência: 470887 -> Ano 2024: 470887 -> Peso Válido: 470775
+
+== 2. TESTES DE PARCELAMENTO DO UNIVERSO Ω ==
+Variável: escolaridade_grupo   | Soma N:  470775 (OK) | Soma BP:  47345 (OK)
+Variável: gravidez_grupo       | Soma N:  470775 (OK) | Soma BP:  47345 (OK)
+Variável: idade_grupo          | Soma N:  470775 (OK) | Soma BP:  47345 (OK)
+Variável: prematuridade        | Soma N:  470775 (OK) | Soma BP:  47345 (OK)
+Variável: prenatal_grupo       | Soma N:  470775 (OK) | Soma BP:  47345 (OK)
+Variável: sexo_grupo           | Soma N:  470775 (OK) | Soma BP:  47345 (OK)
+
+== 3. RECONCILIAÇÃO DAS TABELAS CRUZADAS ==
+Tabela idade+premat           | Soma N: 470775 | Soma BP: 47345 | OK
+Tabela idade+prenatal         | Soma N: 470775 | Soma BP: 47345 | OK
+Tabela idade+prenatal+premat  | Soma N: 470775 | Soma BP: 47345 | OK
+Tabela prenatal+premat        | Soma N: 470775 | Soma BP: 47345 | OK
+
+✅ Total de Testes Aprovados: 16 de 16
+
+== 4. CÁLCULO DAS PROBABILIDADES CENTRAIS ==
+Bayes P(B|A) Calculado: 0.642249 vs Contagem Direta: 0.642249
+
+== 5. MODELAGEM DA DISTRIBUIÇÃO BINOMIAL (n=100) ==
+Média esperada de casos em 100 partos: 10.06
+P(X = 10 casos de baixo peso): 0.1318
+P(X >= 15 casos de baixo peso): 0.0754

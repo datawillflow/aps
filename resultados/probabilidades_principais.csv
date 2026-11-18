@@ -1,0 +1,8 @@
+id,evento,numerador,denominador,formula,universo,probabilidade,percentual,interpretacao
+P1,A = Baixo Peso (<2.500 g),47345,470775,P(A) = n(A) / n(Ω),Ω: Nascidos Vivos em SP (2024),0.10056821199086613,10.057,Aproximadamente 10 em cada 100 recém-nascidos tiveram peso inferior a 2.500g.
+P2,A em Ω_G,47069,470013,P_G(A) = n(A ∩ Ω_G) / n(Ω_G),Ω_G: Com IG classificada,0.10014403856914596,10.014,Proporção de baixo peso restrita ao sub-universo de IG classificada.
+P3,B = Prematuro (22–36 sem.),57660,470013,P(B) = n(B) / n(Ω_G),Ω_G,0.12267745785754862,12.268,Cerca de 12 em cada 100 nascidos com IG conhecida foram prematuros.
+P4,A ∩ B (Prematuro E Baixo Peso),30230,470013,P(A∩B) = n(A∩B) / n(Ω_G),Ω_G,0.06431736994508662,6.432,Cerca de 6 em cada 100 bebês foram simultaneamente prematuros e de baixo peso.
+P5,A | B (Baixo Peso DENTRO dos Prematuros),30230,57660,P(A|B) = n(A∩B) / n(B),B: Grupo de Prematuros,0.5242802636142907,52.428,"Entre os prematuros, mais da metade (52,4%) teve baixo peso ao nascer."
+P6,A | Bᶜ (Baixo Peso DENTRO dos Não Prematuros),16839,412353,P(A|Bᶜ) = n(A∩Bᶜ) / n(Bᶜ),Bᶜ: Grupo a Termo,0.04083637077940502,4.084,"Entre os nascidos a termo, apenas cerca de 4% apresentaram baixo peso."
+P7,B | A (Inversão: Prematuro DENTRO do Baixo Peso),30230,47069,P(B|A) = n(A∩B) / n(A),A: Bebês de Baixo Peso,0.6422486137372793,64.225,"Entre os bebês com baixo peso, quase 2 em cada 3 (64,2%) eram prematuros."

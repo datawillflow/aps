@@ -1,0 +1,17 @@
+teste,resultado
+escolaridade_grupo: soma(n) == N,True
+escolaridade_grupo: soma(BP) == n(A),True
+gravidez_grupo: soma(n) == N,True
+gravidez_grupo: soma(BP) == n(A),True
+idade_grupo: soma(n) == N,True
+idade_grupo: soma(BP) == n(A),True
+prematuridade: soma(n) == N,True
+prematuridade: soma(BP) == n(A),True
+prenatal_grupo: soma(n) == N,True
+prenatal_grupo: soma(BP) == n(A),True
+sexo_grupo: soma(n) == N,True
+sexo_grupo: soma(BP) == n(A),True
+Tabela idade+premat: soma == Ω,True
+Tabela idade+prenatal: soma == Ω,True
+Tabela idade+prenatal+premat: soma == Ω,True
+Tabela prenatal+premat: soma == Ω,True
